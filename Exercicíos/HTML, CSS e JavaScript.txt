@@ -1,0 +1,5 @@
+Estruturação e Semântica: HTML é vital para estruturar e organizar o conteúdo da web de forma semântica, o que não apenas facilita a compreensão por parte dos desenvolvedores, mas também melhora a acessibilidade para usuários e motores de busca.
+
+Estilo e Design: CSS desempenha um papel crucial na criação de layouts atraentes e na estilização dos elementos HTML. Ele permite a separação entre conteúdo e apresentação, facilitando a manutenção e a escalabilidade dos projetos.
+
+Interatividade e Funcionalidade: JavaScript é responsável por adicionar interatividade às páginas da web, criando uma experiência mais dinâmica e envolvente para os usuários. Ele possibilita a criação de aplicativos da web sofisticados e responsivos, melhorando a usabilidade e a eficiência.
