@@ -11,13 +11,20 @@
     <div class="container">
         <h1>EBAC Banking</h1>
         <h2>Depósitos</h2>
-        <form>
-            <input type="text" required placeholder="Nome completo do beneficiário" />
-            <input type="number" required placeholder="Número da conta" />
-            <input type="number" required placeholder="Valor" />
+        <form id="form-deposito">
+            <input id="beneficiario-name" type="text" required placeholder="Nome completo do beneficiário" />
+            <p class="error-message">
+
+            </p>
+            <input id="account-number" type="number" required placeholder="Número da conta" />
+            <input id="value-number" type="number" required placeholder="Valor" />
             <textarea placeholder="Descrição (opcional)"></textarea>
             <button type="submit">Depositar</button>
         </form>
+        <p class="success-message">
+
+        </p>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
