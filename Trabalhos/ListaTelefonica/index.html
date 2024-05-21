@@ -18,7 +18,7 @@
         </header>
         <form id="lista-telefonica">
             <input type="text" id="nome" required placeholder="Nome" >
-            <input type="text" id="numero" required onkeyup="" maxlength="11" placeholder="( ) _____-____" >
+            <input type="text" id="numero" required oninput="formataNumero(this)" maxlength="18" placeholder="( ) _____-____" >
             <button type="submit">Adicionar +</button>
         </form>
         <table>

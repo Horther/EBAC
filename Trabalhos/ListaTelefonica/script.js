@@ -12,7 +12,6 @@ form.addEventListener('submit', (e) => {
 
     adicionaDados();
     atualizador();
-    formatador();
 
 })
 
@@ -44,4 +43,14 @@ function adicionaDados() {
 function atualizador() {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
+}
+
+function formataNumero(input) {
+    var value = input.value.replace(/\D/g, ''); // Remove todos os caracteres não numéricos
+
+    if (value.length > 0) {
+        value = '(' + value.substring(0, 2) + ') ' + value.substring(2, 7) + '-' + value.substring(7, 11);
+    }
+
+    input.value = value;
 }
