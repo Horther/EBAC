@@ -14,12 +14,18 @@ header {
     align-items: center;
 }
 
-header h1 {
+h1 {
     font-style: italic;
 }
 
 a {
     margin-left: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 .container {
@@ -38,6 +44,7 @@ h2 {
     padding-bottom: 8px;
     margin-bottom: 32px;
     border-bottom: 5px solid rgba(20, 105, 216, 0.718);
+    font-style: italic;
 }
 
 
@@ -69,6 +76,7 @@ h3 {
 }
 
 button {
+    width: 98%;
     padding: 5px;
     border: none;
     background-color: rgba(20, 105, 216, 0.718);
@@ -76,5 +84,122 @@ button {
     margin-bottom: 8px;
 }
 
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .container {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .sobre {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .sobre img {
+        width: 100%;
+    }
+
+    #about {
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    li p {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1.5em;
+    }
+
+    .loja h2 {
+        margin-top: 32px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    li img{
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    header h1{
+        margin-left: 16px;
+    }
+    
+    .container {
+        max-width: 640px;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .sobre {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .sobre img {
+        width: 100%;
+    }
+
+    #about {
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    li p {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    a {
+        font-size: 1.5em;
+    }
+
+    .loja h2 {
+        margin-top: 32px;
+    }
+
+    ul {
+        display: block;
+    }
+
+    li img{
+        width: 98%;
+    }
+
+    li {
+        margin-bottom: 16px;
+    }
+}
 
